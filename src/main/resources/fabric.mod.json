@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "elytranerf",
+  "version": "${version}",
+  "name": "elytranerf",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/maury/elytanerf"
+  },
+  "license": "MIT",
+  "icon": "assets/elytranerf/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "jobieskii.elytranerf.Elytanerf"
+    ]
+  },
+  "mixins": [
+    "elytranerf.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

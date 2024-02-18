@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "jobieskii.elytranerf.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "fireworkSpeedMixin",
+    "fireworkEntityAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
