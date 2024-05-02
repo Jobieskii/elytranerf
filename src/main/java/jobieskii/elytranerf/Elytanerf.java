@@ -7,6 +7,6 @@ public class Elytanerf implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        System.out.println(MODID);
+
     }
 }
